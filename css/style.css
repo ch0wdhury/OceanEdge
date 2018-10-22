@@ -14,7 +14,7 @@ header {
 	overflow: hidden;
 }
 .logo {
-	width: 19%;
+	width: 15%;
 	float: left;
 }
 .logo img {
@@ -22,12 +22,12 @@ header {
 	width: 90%;
 }
 .nav {
-	width: 70%;
+	width: 50%;
 	float: right;
 }
 .nav ul {
 	list-style: none;
-	float: right;
+	float: left;
 
 }
 .nav ul li {
@@ -37,9 +37,9 @@ header {
 .nav ul li a {
 	text-decoration: none;
 	padding: 10px 20px;
-	display: block;
 	margin-top: 38px;
-	font-size: 15px;
+	display: block;
+	font-size: 16px;
 	transition: .6s ease;
 	color: white;
 }
@@ -57,8 +57,8 @@ header {
 	background-image: url(../images/banner.jpg);
 	background-repeat: no-repeat;
 	background-position: top right;
-	background-size: 600px 450px;
 	background-color: #12192C;
+	min-height: 550px;
 }
 .banner_top {
 	height: 10px;
@@ -68,73 +68,65 @@ header {
 }
 .banner_text {
 	overflow: hidden;
-	width: 49%;
+	width: 60%;
 	float: left;
 	padding-bottom: 50px;
+	position: relative;
 }
 .banner_text p:first-child {
 	font-family: 'Questrial', sans-serif;
 	color: white;
 	padding-top: 170px;
-	font-size: 29px;
-	font-weight: 1;
-	margin-left: 150px;
+	font-size: 45px;
+	font-weight: 300;
 }
 .text2 {
 	font-family: 'Questrial', sans-serif;
 	color: #0075BA;
-	font-size: 29px;
+	font-size: 45px;
 	font-weight: 800;
-	margin-left: 150px;
 	padding: 10px 0;
+	text-align: justify;
 }
 .text3 {
 	font-family: 'Lato', sans-serif;
 	color: white;
-	font-size: 13px;
-	width: 76%;
-	margin-left: 150px;
+	font-size: 18px;
+	font-weight: lighter;
+	width: 80%;
 }
-button {
-	margin-left: 150px;
+.banner_text button {
+	width: 220px;
 	margin-top: 35px;
-	border-radius: 10px;
+	text-align: left;
+	border-radius: 3px;
 	background-color: #FFFFFF;
 	text-decoration: none;
 	font-family: 'Questrial', sans-serif;
 	font-weight: 900;
     color: black;
-    padding: 10px 45px;
-    display: block;
-    font-size: 16px;
+    font-size: 20px;
     border-style: hidden;
+    padding: 10px 0 10px 25px;
+    position: relative;
     transition: .5s ease;
 }
-button:hover {
+.banner_text button img {
+	width: 10%;
+	position: absolute;
+	top: 21%;
+	right: 7%;
+}
+.banner_text button:hover {
 	background-color: #12192C;
 	color: #FFFFFF;
-}
-
-.banner_image {
-	width: 100%;
-}
-.banner_image img {
-	float:right;
-}
-.banner_bottom {
-	width: 1356px;
-    height: 15px;
-}
-.banner_bottom img {
-	width: 96%;
 }
 /*Banner End */
 
 /*Service Start */
 .service {
 	background-color: #121B2C;
-	min-height: 250px;
-	padding-top: 30px;
+	min-height: 280px;
 }
 .single_service {
 	width: 30%;
@@ -158,26 +150,29 @@ button:hover {
 }
 .content {
 	overflow: hidden;
-	width: 67%;
+	width: 65%;
 	float: left;
 	margin: 20px 0;
 }
 .content p:first-child {
 	color: white;
 	font-family: 'Questrial', sans-serif;
-	font-size: 22px;
+	font-size: 23px;
+	margin-top: 20px;
 }
 .content p:last-child {
 	color: #0177BF;
 	font-family: 'Questrial', sans-serif;
-	font-size: 17px;
-	padding-bottom: 5px;
+	font-size: 25px;
 }
 .service_content {
 	color: white;
 	font-family: 'Lato', sans-serif;
-	font-size: 14px;
-	text-align: left;
+	font-size: 13px;
+	line-height: 1.5;
+	text-align: justify;
+	font-weight: inherit;
+	margin-bottom: 30px;
 }
 /*Service End */
 
@@ -188,7 +183,7 @@ button:hover {
 	min-height: 300px;
 }
 .wrapper_bottom {
-	padding-top: 40px;
+	padding-top: 50px;
 	padding-left: 60px;
 	width: 80%;
 	margin: 0 auto;
@@ -203,13 +198,12 @@ button:hover {
 	text-align: left;
 }
 .test_head {
-	
 	padding-bottom: 15px;
 	text-align: left;
 }
 .test_head p {
 	font-family: 'Questrial', sans-serif;
-	font-size: 19px;
+	font-size: 22px;
 	color: white;
 	font-weight: 500;
 }
@@ -235,9 +229,6 @@ button:hover {
 	width: 50%;
 	float: left;
 }
-.test_image img {
-
-}
 .test_app {
 	width: 50%;
 	float: right;
@@ -246,7 +237,7 @@ button:hover {
 	width: 60%;
 	float: left;
 	font-family: 'Questrial', sans-serif;
-	font-size: 18px;
+	font-size: 22px;
 	color: white;
 	font-weight: 500;
 	padding-bottom: 20px;
@@ -271,7 +262,7 @@ button:hover {
 	float: left;
 	color: white;
 	font-family: 'Lato', sans-serif;
-	font-size: 11px;
+	font-size: 12px;
 }
 .footer_left ul {
 	padding-top: 25px;
@@ -283,20 +274,19 @@ button:hover {
 	float: left;
 }
 .footer_left ul li a {
-	 padding: 0 8px;
+	 padding: 0 20px;
 	 text-decoration: none;
 	 color: white;
 }
-
-.footer_left ul li:last-child a{
-	border-right: 0px;
+.footer_left ul li:nth-child(6) {
+	border-right: none;
 }
 .footer_left p {
 	margin-top: 35px;
     margin-left: 10px;
 }
 .footer_right {
-	width: 42%;
+	width: 45%;
 	float: right;
 	margin-top: 12px;
 }
