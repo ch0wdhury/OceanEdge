@@ -126,7 +126,7 @@ header {
 /*Service Start */
 .service {
 	background-color: #121B2C;
-	min-height: 280px;
+	min-height: 300px;
 }
 .single_service {
 	width: 30%;
@@ -169,7 +169,7 @@ header {
 	color: white;
 	font-family: 'Lato', sans-serif;
 	font-size: 13px;
-	line-height: 1.5;
+	line-height: 1.7;
 	text-align: justify;
 	font-weight: inherit;
 	margin-bottom: 30px;
@@ -244,13 +244,13 @@ header {
 	text-align: left;
 }
 .test_app img {
-	width: 80%;
+	width: 70%;
 	float: left;
 }
 /* Testimonial End*/
 
 /* Footer Start */
-.footer {
+footer {
 	overflow: hidden;
 	background-color: #121B2C;
 	min-height: 115px;
@@ -266,7 +266,6 @@ header {
 }
 .footer_left ul {
 	padding-top: 25px;
-	
 }
 .footer_left ul li {
 	border-right: 1px solid white;
@@ -274,20 +273,25 @@ header {
 	float: left;
 }
 .footer_left ul li a {
-	 padding: 0 20px;
+	 padding: 0 25px;
 	 text-decoration: none;
 	 color: white;
+}
+.footer_left ul li:nth-child(1) a {
+	padding-left: 0px;
 }
 .footer_left ul li:nth-child(6) {
 	border-right: none;
 }
 .footer_left p {
 	margin-top: 35px;
-    margin-left: 10px;
 }
 .footer_right {
 	width: 45%;
 	float: right;
 	margin-top: 12px;
+}
+.footer_right img {
+	float: right;
 }
 /* Footer End */
