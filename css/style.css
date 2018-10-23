@@ -22,7 +22,7 @@ header {
 	width: 90%;
 }
 .nav {
-	width: 50%;
+	width: 60%;
 	float: right;
 }
 .nav ul {
@@ -33,18 +33,19 @@ header {
 .nav ul li {
 	float: left;
 	font-family: 'Questrial', sans-serif;
+	text-transform: uppercase;
 }
 .nav ul li a {
 	text-decoration: none;
 	padding: 10px 20px;
 	margin-top: 38px;
 	display: block;
-	font-size: 16px;
+	font-size: 15px;
 	transition: .6s ease;
 	color: white;
 }
-.nav ul li:last-child a{
-	padding-right: 0;
+.nav ul li:first-child a{
+	padding-left: 0;
 }
 .nav ul li a:hover {
 	color: #0074B9;
@@ -163,7 +164,7 @@ header {
 .content p:last-child {
 	color: #0177BF;
 	font-family: 'Questrial', sans-serif;
-	font-size: 25px;
+	font-size: 24px;
 }
 .service_content {
 	color: white;
@@ -273,7 +274,7 @@ footer {
 	float: left;
 }
 .footer_left ul li a {
-	 padding: 0 25px;
+	 padding: 0 20px;
 	 text-decoration: none;
 	 color: white;
 }
